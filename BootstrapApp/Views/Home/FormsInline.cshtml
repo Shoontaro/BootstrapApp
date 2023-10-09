@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "FormsInline";
+}
+
+<h2>FormsInline</h2>
+
+@using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "form-inline", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <h4>Use a local account to log in.</h4>
+    <hr />
+    @Html.ValidationSummary(true)
+    <div class="form-group">
+        <div class="col-md-10">
+            @Html.TextBox("Name", "", new { @class = "form-control", @placeholder = "Логин" })
+            @*@Html.ValidationMessageFor(m => m.UserName)*@
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-10">
+            @Html.Password("Password", "", new { @class = "form-control", @placeholder = "Пароль" })
+            @*@Html.ValidationMessageFor(m => m.Password)*@
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <div class="checkbox">
+                @Html.CheckBox("RememberMe")
+                @Html.Label("Remember me")
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Log in" class="btn btn-default" />
+        </div>
+    </div>
+}

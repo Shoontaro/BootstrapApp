@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapApp", "BootstrapApp\BootstrapApp.csproj", "{18A2CF6D-1756-4971-B3B6-C1C46133A868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModalWindows", "ModalWindows\ModalWindows.csproj", "{6876C7BA-119A-43E1-B028-95CA61CCB515}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18A2CF6D-1756-4971-B3B6-C1C46133A868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A2CF6D-1756-4971-B3B6-C1C46133A868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A2CF6D-1756-4971-B3B6-C1C46133A868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A2CF6D-1756-4971-B3B6-C1C46133A868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6876C7BA-119A-43E1-B028-95CA61CCB515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6876C7BA-119A-43E1-B028-95CA61CCB515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6876C7BA-119A-43E1-B028-95CA61CCB515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6876C7BA-119A-43E1-B028-95CA61CCB515}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEFBBA93-C3D9-4BDA-B49D-DE698331D01E}
+	EndGlobalSection
+EndGlobal
